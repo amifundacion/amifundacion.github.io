@@ -60,10 +60,10 @@ h1{
     border-radius: 2px;
 }
 .button{
-    height: 90px;
-    width: 90px;
-    font-size: 20px;
-    padding: 0 20px 20px 20px;
+    height: 80px;
+    width: 100px;
+    font-size: 27px;
+    padding: 0 0px 20px 0px;
     font-weight: bold;
 }
 header{

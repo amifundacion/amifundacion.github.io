@@ -6,11 +6,7 @@
     box-sizing: border-box;
 }
 
-h1{
-    text-align: center;
-    background: rgb(58,165,180);
-    background: linear-gradient(90deg, rgba(58,165,180,1) 0%, rgba(253,29,124,1) 54%, rgba(69,248,252,1) 100%);
-}
+
 
 body {
     display: flex;
@@ -19,6 +15,12 @@ body {
     height: 100vh;
     font-family: Montserrat, sans-serif;
     background: linear-gradient(120deg, #84f700, #646464);
+}
+
+h1{
+    text-align: center;
+    background: rgb(58,165,180);
+    background: linear-gradient(90deg, rgba(58,165,180,1) 0%, rgba(253,29,124,1) 54%, rgba(69,248,252,1) 100%);
 }
 
 .contar {
@@ -125,9 +127,9 @@ h1{
 }
 .button{
     height: 40px;
-    width: 40px;
+    width: 70px;
     font-size: 20px;
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 10px 0px;
     font-weight: bold;
 }
 header{
