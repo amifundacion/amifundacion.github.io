@@ -15,7 +15,7 @@
 	<div id="sidebar">
 		<!-- Color picker for drawing pecil -->
 		<div class="colorButtons">
-			<h3>Colour</h3>
+			<h3>Color</h3>
 			<input type="color" id="colorpicker" class="colorpicker" value="#c81464">
 		</div>
 		<!-- color picker for background -->
@@ -25,23 +25,23 @@
 		</div>
 		<!-- tools eraser and clear  -->
 		<div class="toolsbuttons">
-			<h3>Tools</h3>
+			<h3>Refrescar</h3>
 			<button id="eraser" class="btn btn-default">
 				<span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
-			</button>
+			</button> 
 			<button id="clear" class="btn btn-danger">
 				<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
-			</button>
+			</button> 
 		</div>
 		<!-- change thickness on drawing pencil -->
 		<div class="buttonSize">
-			<h3>Size(<span id="showSize">5</span>)</h3>
+			<h3>Tamaño(<span id="showSize">5</span>)</h3>
 
-			<input type="range" min="1" max="50" value="5" step="1" id="controlSize">
+			<input type="range" min="1" max="50" value="5"  step="1" id="controlSize">
 		</div>
 		<!-- Canvas sizes change -->
 		<div class="canvasSize">
-			<h3>Canvas</h3>
+			<h3>Lienzo</h3>
 			<div class="input-group">
 				<span class="input-group-addon">X</span>
 				<input type="number" id="sizeX" class="form-control" placeholder="sizeX" value="800" class="size">
@@ -50,9 +50,23 @@
 				<span class="input-group-addon">Y</span>
 				<input type="number" id="sizeY" class="form-control" placeholder="sizeY" value="800" class="size">
 			</div>
-			<input type="button" class="updateSize btn btn-success" value="update" id="canvasUpdate">
+			<input type="button" class="updateSize btn btn-success" value="Actualizar" id="canvasUpdate">
 		</div>
 
+		<!-- saving the image -->
+
+		<div class="Storage">
+			<h3>Pruebas</h3>
+			<input type="button" value="Guardar" class="btn btn-danger" id="save">
+			<input type="button" value="Cargar" class="btn btn-warning" id="load">
+			<input type="button" value="Borar" class="btn btn-success" id="clearCache">
+		</div>
+		<!-- Download the drawing -->
+
+		<div class="extra">
+			<h3>Extra</h3>
+			<a id="saveToImage" class="btn btn-warning">Descargar</a>
+		</div>
 	</div>
 	<center>
 		<div>
@@ -109,7 +123,7 @@
 						</a>
 					</td>
 					<td>
-						<a href="../inicio/index.html">
+						<a href="../../../../../index.html">
 							<input type="button" value="↩" class="button">
 						</a>
 					</td>
@@ -117,6 +131,10 @@
 			</table>
 		</div>
 	</center>
+
+	<div>
+		<img src="../../img/8.png" alt="">
+	</div>
 
 </body>
 
