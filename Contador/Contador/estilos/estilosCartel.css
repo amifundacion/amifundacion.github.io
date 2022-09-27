@@ -5,7 +5,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+h1{
+    text-align: center;
+    background: rgb(58,165,180);
+    background: linear-gradient(90deg, rgba(58,165,180,1) 0%, rgba(253,29,124,1) 54%, rgba(69,248,252,1) 100%);
+}
 body {
     display: flex;
     justify-content: center;
