@@ -1,7 +1,5 @@
-const sonidos = document.getElementById('sonidos');
+let sonidos = new Audio('../sonido/seis.mp3');
 
-document.addEventListener('keydown', function(evento){
-    if(evento.keyCode == 32) {
-        sonidos.innerHTML += '<audio src="../sonido/seis.mp3" autoplay></audio>';
-    }
-})
+setInterval(()=>{
+   sonidos.play()
+}, 3000)
