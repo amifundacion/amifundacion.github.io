@@ -319,8 +319,9 @@ h3{
     h3{
         position: relative;
         text-align: center;
-        font-size: 10px;
-        top: 10px;
+        font-size: 15px;
+        top: 300px;
+        left: 80px;
     }
     .button{
         position: relative;
