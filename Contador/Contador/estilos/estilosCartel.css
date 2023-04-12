@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+h1, h4{
     text-align: center;
     background: rgb(58,165,180);
     background: linear-gradient(90deg, rgba(58,165,180,1) 0%, rgba(253,29,124,1) 54%, rgba(69,248,252,1) 100%);
@@ -68,7 +68,7 @@ span {
 }
 #i1{
 	position: relative;
-    top: 20px;
+    top: 40px;
     width: 160px;
     height: 200px;
     right: 300px;
@@ -76,6 +76,45 @@ span {
     
 }
 
+#i20{
+    position: relative;
+    width: 160px;
+    top: 25px;
+    height: 1px;
+    right: 30px;
+    animation: moverOngo 10s alternate infinite;  
+}
+
+@keyframes moverOngo{
+    0%{
+        transform: translate(0);
+        width: 35px;
+        height: 35px;
+    }
+    20%{
+        transform: translateX(100%);
+        width: 40px;
+        height: 40px;
+    }
+    40%{
+        transform: translate(150%);
+        width: 55px;
+        height: 55px;
+        
+    }
+    60%{
+        transform: translate(200);
+        width: 70px;
+        height: 70px;
+        
+    }
+    80%{
+        transform: translate(250);
+        width: 40px;
+        height: 40px;
+        
+    }
+}
 @keyframes mover{
     0%{
         transform: translate(0);
@@ -299,6 +338,8 @@ h3{
     right: 300px;
     animation: mover 10s alternate infinite;  
 }
+
+
 
 @media (max-width: 470px) {
     body{
@@ -537,6 +578,8 @@ h3{
     right: 30px;
     animation: mover 10s alternate infinite;  
 }
+
+
     
 }
 
