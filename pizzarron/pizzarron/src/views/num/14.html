@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>InfinityMate drawingpad</title>
+	<link rel="stylesheet" type="text/css" href="../../styles/pru.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<script src="../../js/pru.js"></script>
+
+<body>
+	<div id="sidebar">
+		<!-- Color picker for drawing pecil -->
+		<div class="colorButtons">
+			<h3>Color</h3>
+			<input type="color" id="colorpicker" class="colorpicker" value="#c81464">
+		</div>
+		<!-- color picker for background -->
+		<div class="colorButtons">
+			<h3>Bg Color</h3>
+			<input type="color" id="bgcolorpicker" class="colorpicker" value="#ffffff">
+		</div>
+		<!-- tools eraser and clear  -->
+		<div class="toolsbuttons">
+			<h3>Refrescar</h3>
+			<button id="eraser" class="btn btn-default">
+				<span class="glyphicon glyphicon-erase" aria-hidden="true"></span>
+			</button> 
+			<button id="clear" class="btn btn-danger">
+				<span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+			</button> 
+		</div>
+		<!-- change thickness on drawing pencil -->
+		<div class="buttonSize">
+			<h3>Tamaño(<span id="showSize">5</span>)</h3>
+
+			<input type="range" min="1" max="50" value="5"  step="1" id="controlSize">
+		</div>
+		<!-- Canvas sizes change -->
+		<div class="canvasSize">
+			<h3>Lienzo</h3>
+			<div class="input-group">
+				<span class="input-group-addon">X</span>
+				<input type="number" id="sizeX" class="form-control" placeholder="sizeX" value="800" class="size">
+			</div>
+			<div class="input-group">
+				<span class="input-group-addon">Y</span>
+				<input type="number" id="sizeY" class="form-control" placeholder="sizeY" value="800" class="size">
+			</div>
+			<input type="button" class="updateSize btn btn-success" value="Actualizar" id="canvasUpdate">
+		</div>
+
+		<!-- saving the image -->
+
+		<div class="Storage">
+			<h3>Pruebas</h3>
+			<input type="button" value="Guardar" class="btn btn-danger" id="save">
+			<input type="button" value="Cargar" class="btn btn-warning" id="load">
+			<input type="button" value="Borar" class="btn btn-success" id="clearCache">
+		</div>
+		<!-- Download the drawing -->
+
+		<div class="extra">
+			<h3>Extra</h3>
+			<a id="saveToImage" class="btn btn-warning">Descargar</a>
+		</div>
+	</div>
+	<center>
+		<div>
+			<table>
+				<tr>
+					<td>
+						<a href="../../views/num/1.html">
+							<input type="button" value="1" class="button">
+						</a>
+					</td>
+					<td>
+						<a href="../../views/num/2.html">
+							<input type="button" value="2" class="button">
+						</a>
+					</td>
+					<td>
+						<a href="../../views/num/3.html">
+							<input type="button" value="3" class="button">
+						</a>
+					</td>
+					<td>
+						<a href="../../views/num/4.html">
+							<input type="button" value="4" class="button">
+						</a>
+					</td>
+					<td>
+						<a href="../../views/num/5.html">
+							<input type="button" value="5" class="button">
+						</a>
+					</td>
+					<td>
+						<a href="../../views/num/6.html">
+							<input type="button" value="6" class="button">
+						</a>
+					</td>
+					<td>
+						<a href="../../views/num/7.html">
+							<input type="button" value="7" class="button">
+						</a>
+					</td>
+					<td>
+						<a href="../../views/num/8.html">
+							<input type="button" value="8" class="button">
+						</a>
+					</td>
+					<td>
+						<a href="../../views/num/9.html">
+							<input type="button" value="9" class="button">
+						</a>
+					</td>
+					<td>
+						<a href="../../views/num/10.html">
+							<input type="button" value="10" class="button">
+						</a>
+					</td>
+					<td>
+						<a href="../../views/num/13.html">
+							<input type="button" value="13" class="button">
+						</a>
+					</td>
+					<td>
+						<a href="../../views/num/14.html">
+							<input type="button" value="14" class="button">
+						</a>
+					</td>
+					<td>
+						<a href="../menu/menu.html">
+							<input type="button" value="↩" class="button">
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</center>
+
+	<div>
+		<img src="../../img/14.jpg" alt="">
+	</div>
+
+</body>
+
+</html>
