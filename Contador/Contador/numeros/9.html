@@ -6,17 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contador</title>
-    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="stylesheet" href="../estilos/estilosNums.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
 </head>
-<header>
-    <section class="tarjetas">
-
-        <h1>Qué número debemos repasar hoy?</h1>
-        <h3>Presiona la pantalla para escuchar el número..!! </h3>
-        <div class="tablitas">
-            <table>
-                <tr>
+<body>
+    <h1>¿Qué número debemos repasar hoy?</h1>
+        <div class="numeros">
+            <table class="tabla">
+                <tr> 
                     <td>
                         <a href="../numeros/1.html">
                             <input type="button" value="1" class="button">
@@ -120,31 +117,29 @@
                         </a>
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        <a href="../index.html">
-                            <input type="button" value="volver" class="button">
-                        </a>
-                    </td>
-                    <td>
-                        <a href="../numeros/cartel9.html">
-                            <input type="button" value="seguir" class="button">
-                        </a>
-                    </td>
-                </tr>
+            </table>
         </div>
-</header>
-
-<body>
-    
-        </table>
-    <div class="container">
-        <div class="cuadrado ">
-            <h2 id="h2">9</h2>
+    <div class="numeros">
+        <div class="contImgs">
+            <table>
+                <div class="container">
+                     <div class="cuadrado ">
+                        <h2 id="h2">9</h2>
+                    </div>
+                </div>
+            </table>
         </div>
-    </div>
+        <br>
+        <a href="../index.html">
+            <input type="button" value="Volver" class="buttonBottom">
+        </a>
+        <a href="../numeros/cartel9.html">
+            <input type="button" value="Seguir" class="buttonBottom">
+        </a>  
+        <h3>Presiona la pantalla para escuchar el número..!! </h3>  
     <div id="sonidos">
     </div>
+    </div>    
 </body>
 <script src="../js/9.js"></script>
 
