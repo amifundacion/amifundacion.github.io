@@ -1,5 +1,6 @@
 let sonidos = new Audio('../sonido/dos.mp3');
+let body = document.getElementById("body");
 
-setInterval(()=>{
-   sonidos.play()
-}, 3000)
+body.addEventListener("click", () => {
+  sonidos.play();
+});
